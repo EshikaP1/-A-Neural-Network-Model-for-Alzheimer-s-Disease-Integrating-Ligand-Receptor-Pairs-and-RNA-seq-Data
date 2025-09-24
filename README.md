@@ -1,1 +1,9 @@
-# -A-Neural-Network-Model-for-Alzheimer-s-Disease-Integrating-Ligand-Receptor-Pairs-and-RNA-seq-Data
+## A-Neural Network Model for Alzheimer's Disease Integrating Ligand-Receptor Pairs and RNA-seq Data
+
+### Alzheimer's is a neurological disease that leads to memory loss, communication difficulties, social withdrawal, language impairments, and more. It is associated with impaired cell-to-cell communication in the brain due to the accumulation of amyloid-beta plaques and tau protein tangles, which disrupt neuronal signaling pathways. Although Alzheimer's disease disrupts normal cell-to-cell communication, ligand-receptor interactions still occur in response to disease progression. By integrating RNA-seq expression levels with binding affinity values (KD), it is possible to incorporate the availability and binding strength of key signaling pairs to infer potential disruptions in molecular signaling pathways and predict Alzheimer's in a patient. My model should accurately leverage RNA-seq data and ligand–receptor interactions to assess the molecular factors contributing to disease progression. Ultimately, it will output a probability score, which can then be used to classify whether Alzheimer’s disease is likely present, providing a binary outcome.
+
+#### Statement of Problem
+The main goal of this study was to determine how Alzheimer's patients were affected on a molecular level by considering the ligand-receptor pair’s binding affinity, molecular weights, and expression levels to determine the pathogenicity of Alzheimer's disease using a classification model. The reason for conducting this study was to establish connections, determine factors that may affect the prevalence of Alzheimer's disease, and open up new paths to future treatments.
+#### Hypothesis
+The molecular profile of key ligand-receptor communication pathways, reflecting both gene expression levels (from RNA-seq) and potential interaction strength (approximated by molecular weights), is significantly different in brain tissue samples from individuals diagnosed with Alzheimer's disease compared to controls.
+
